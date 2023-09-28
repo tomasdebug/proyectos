@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="tarjetamonedero.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2984" topLine="72" />
+	</File>
+	<File name="tarjetamonedero.h" open="1" top="1" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

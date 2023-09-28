@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PeqProductor
+comment0.text=\r\n\ Tipo\ de\ productores\ con\ hect\u00E1reas\ totales\ menores\ al\ l\u00EDmite.\r\n\ Pueden\ tener\ m\u00E1ximo\ 5\ tipos\ de\ productos.\r\n
+comment1.params=n
+comment1.target=PeqProductor(java.lang.String)
+comment1.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ PeqProductor\r\n\ \r\n\ @param\ \ \ n\ \ \ nombre\ del\ productor\r\n
+comment2.params=n\ p
+comment2.target=PeqProductor(java.lang.String,\ java.util.HashMap)
+comment2.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ PeqProductor\r\n\ \r\n\ @param\ \ \ n\ \ \ nombre\ del\ productor\r\n\ @param\ \ \ p\ \ \ HashMap<String,Double>\ con\ una\ lista\ de\ nombres\ de\ productos\ y\ las\ hect\u00E1reas\ que\ posee\r\n
+comment3.params=producto\ extension
+comment3.target=void\ addProducto(Producto,\ double)
+comment3.text=\r\n\ A\u00F1adir\ producto\ y\ extensi\u00F3n\r\n
+numComments=4

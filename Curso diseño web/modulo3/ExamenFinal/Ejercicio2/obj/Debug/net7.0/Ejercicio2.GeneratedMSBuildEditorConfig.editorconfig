@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Ejercicio2
+build_property.RootNamespace = Ejercicio2
+build_property.ProjectDir = C:\Users\Curso Mañana\Desktop\curso diseño web\modulo3\ExamenFinal\Ejercicio2\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Curso Mañana\Desktop\curso diseño web\modulo3\ExamenFinal\Ejercicio2
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Camisetas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaXNldGFzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Camisetas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaXNldGFzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Camisetas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaXNldGFzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Camisetas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaXNldGFzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Camisetas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FtaXNldGFzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Home/Secciones.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTZWNjaW9uZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Pantalones/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFudGFsb25lc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Pantalones/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFudGFsb25lc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Pantalones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFudGFsb25lc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Pantalones/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFudGFsb25lc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Pantalones/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFudGFsb25lc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Zapatos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFwYXRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Zapatos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFwYXRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Zapatos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFwYXRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Zapatos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFwYXRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Zapatos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWmFwYXRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Curso Mañana/Desktop/curso diseño web/modulo3/ExamenFinal/Ejercicio2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-irimsx2y31

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=ProductorFede
+comment0.text=\r\n\ Federaci\u00F3n\ de\ peque\u00F1os\ productores\ que\ unen\ las\ hectareas\ de\ un\ mismo\ producto.\r\n\ El\ total\ de\ hect\u00E1reas\ no\ puede\ sobrepasar\ el\ l\u00EDmite\r\n
+comment1.params=n\ p
+comment1.target=ProductorFede(java.lang.String,\ Producto)
+comment1.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ ProductorFede\r\n\ Productor\ vac\u00EDo\ (sin\ productores\ involucrados\ a\u00F1adidos)\r\n\ \r\n\ @param\ \ \ n\ \ \ nombre\ del\ productor\r\n\ @param\ \ \ p\ \ \ producto\ que\ comparten\r\n
+comment2.params=n\ p\ pI
+comment2.target=ProductorFede(java.lang.String,\ Producto,\ java.util.ArrayList)
+comment2.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ ProductorFede\r\n\ Productor\ con\ productores\ involucrados\ a\u00F1adidos\r\n\ \r\n\ @param\ \ \ n\ \ \ nombre\ del\ productor\r\n\ @param\ \ \ p\ \ \ producto\ que\ comparten\r\n\ @param\ \ \ pI\ \ Lista\ de\ peque\u00F1os\ productores\ que\ lo\ forman\r\n
+comment3.params=prod
+comment3.target=void\ addProductor(PeqProductor)
+comment3.text=\r\n\ \ \ \ \ A\u00F1ade\ un\ productor\ peque\u00F1o\ a\ la\ lista\ de\ productores\ que\ en\ conjunto\ son\ productor\ federado\r\n\ \r\n\ @precon\ El\ productor\ a\ a\u00F1adir\ debe\ tener\ el\ producto\ de\ la\ federacion\ \r\n\ @precon\ La\ suma\ de\ la\ extensi\u00F3n\ (de\ un\ producto)\ de\ los\ productores\ peque\u00F1os\ no\ debe\ superar\ el\ limite\ de\ extension\r\n\ @postcon\ No\ puede\ haber\ solo\ un\ productor\ involucrado\ en\ ser\ productor\ federado\r\n
+comment4.params=prod
+comment4.target=void\ removeProductor(Productor)
+comment5.params=
+comment5.target=void\ comprobarProductores()
+comment6.params=
+comment6.target=Producto\ getProducto()
+comment7.params=
+comment7.target=java.util.ArrayList\ getProductores()
+comment8.params=
+comment8.target=double\ getExtensionTotal()
+numComments=9

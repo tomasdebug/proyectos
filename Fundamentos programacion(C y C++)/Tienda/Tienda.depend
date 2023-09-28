@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1421089959 source:c:\users\thomas\desktop\tienda\tienda.cpp
+	"Tienda.h"
+	<stdio.h>
+
+1421089554 c:\users\thomas\desktop\tienda\tienda.h
+

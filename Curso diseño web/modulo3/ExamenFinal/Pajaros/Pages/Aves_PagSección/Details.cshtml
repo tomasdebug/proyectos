@@ -1,0 +1,37 @@
+﻿@page
+@model Pajaros.Pages.Aves_Pajaros.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Pajaro</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pajaro.Nombre)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pajaro.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pajaro.Nombre_Cientifico)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pajaro.Nombre_Cientifico)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pajaro.Descripcion)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pajaro.Descripcion)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Pajaro?.id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

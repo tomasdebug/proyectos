@@ -1,0 +1,11 @@
+﻿@{ 
+    ViewData["Title"]="Login";
+}  
+@for(var i = 0; i < 10; i++)
+{
+    <span>@Html.ActionLink("Login Juan","Adios","Login",new{nombre="Juan",id=i})</span>
+
+    <!--le paso la acción como string-->
+}
+@Html.TextArea("TextArea","Escribe aquí",100,100,new {name="algo"})
+@viewBag.algo="Hola";<!--crea el texto en la vista como si nada-->

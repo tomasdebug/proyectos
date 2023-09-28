@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1421657637 source:c:\misejemplos\flotavehiculos\principal.cpp
+	"FlotaVehiculos.h"
+
+1421658433 source:c:\misejemplos\flotavehiculos\flotavehiculos.cpp
+	"FlotaVehiculos.h"
+
+1421658433 c:\misejemplos\flotavehiculos\flotavehiculos.h
+	<string.h>
+

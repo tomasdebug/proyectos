@@ -1,0 +1,152 @@
+/*Reset(predeterminado)*/
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    text-decoration: none;
+    /*box-sizing:border-box contará el contenido desde el borde*/
+    box-sizing:content-box /*coge el ancho desde el contenido */
+    
+}
+/*cabecera*/
+
+
+
+/*cuerpo*/
+body{
+    background-image: url(../img/texture-3474284_1280\ \(2\).jpg);
+    background-repeat: repeat;
+    background-size: 100px;
+    
+
+
+}
+.cuerpo-wrapper{
+
+background-color: black;
+}
+/*menus*/
+nav{
+ margin: 15px 20px 20px 20px;
+ /*margin-top:15px margin-left:20 px...*/
+ padding: 40px;
+ display: flex;
+ justify-content:space-around;
+ border: 3px groove;
+ border-radius: 5px;
+ background-color: aqua;
+
+}
+.menu h1{
+text-align: center;
+font: bold 40px;
+font-family: 'Times New Roman', Times, serif; 
+}
+.menu a{
+    text-decoration: initial auto;
+    padding: 5px;
+    border:3px solid blue;
+    width: auto;
+    margin:8px;
+    margin-right: 3%;
+    margin-left: 10%;
+    
+
+
+}
+.menu-foot{ 
+    display:flex;/*se reparte el espacio de la flex*/
+    margin: 0px;
+    
+}
+.menu-foot a {
+    flex:1;
+  
+}
+.menu-foot a:hover{
+    flex:1;
+    background-color: red;
+    border: 2px white solid;
+}
+footer nav a:hover{/*se pondrá en este color al acabar la wea*/
+
+    background-color:greenyellow;
+ 
+}
+/*principal*/
+main{
+    background-color: gold;
+    margin:0 20px;
+    width: 70%;
+
+}
+/*articulos*/
+article{
+display: inline-block;
+width: 45%;
+margin: 10px 20px 20px 20px;
+text-align: justify;
+}
+article blockquote{
+
+    margin:8px;
+    font:italic bold  20px verdana;/*Si ponemos el mouse encima nos da la sintaxis bien(lo que está entre corchetes es obligatorio)*/
+
+}
+/*lateral*/
+aside ul{
+
+    list-style:url(../img/images.png) right;
+    list-style-position:inside;/*hace que la viñeta se vaya con el texto.*/
+    
+    
+   
+}
+aside ul li {
+
+    margin-bottom:5px;
+ 
+}
+aside{
+    background-color: burlywood;
+    margin: 0 20px 0 5px ;
+    padding:20px;
+    position: fixed;
+    right: 0px;
+    top:184px;
+    width: 100px;
+    z-index: 999;
+
+}
+aside img{
+    width:100px;
+
+}
+aside li{
+    list-style-type: none;
+}
+/*pie de pagina*/
+footer img{
+
+width: 150px;
+padding: 20px;
+}
+footer address{
+    background-color: rgb(209, 253, 166);
+    vertical-align: center;
+   
+    }
+footer address * {/*el asterisco selecciona todos los hijos de address*/
+
+    display: inline-block;
+}
+footer address a:link{/*el link es para indicar que sea el lenguaje por defecto*/
+    text-decoration: none;
+    font-weight: bold;
+    color: brown;
+    margin:  auto 10px;
+    padding-top: 20px;
+}
+
+
+

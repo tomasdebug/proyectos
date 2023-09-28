@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=clase1_modificador_de_acceso
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ clase1_modificador_de_acceso\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=java.lang.String\ miMetodo()
+comment1.text=\r\n\ metodo\ para\ ver\ el\ funcionamiento\ del\ modificador\ por\ defecto\ que\ me\ dejar\u00E1\ invocar\ este\ metodo\ en\ esta\ \r\n\ clase\ y\ por\ otras\ clases\ del\ mismo\ paquete\ pero\ no\ por\ otras\ de\ otro\ paquete\r\n
+numComments=2

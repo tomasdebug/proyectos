@@ -1,0 +1,73 @@
+# depslib dependency file v1.0
+1610212415 source:c:\users\ana\documents\_uned\fp\programas_c\prueba2.cpp
+	<stdio.h>
+	<string.h>
+	"TAD1.h"
+	"TAD2.h"
+	"Cadena.h"
+
+1610212137 source:c:\users\ana\documents\_uned\fp\programas_c\tad2.cpp
+	<stdio.h>
+	"TAD2.h"
+
+1610212122 c:\users\ana\documents\_uned\fp\programas_c\tad2.h
+	"Cadena.h"
+
+1610212421 c:\users\ana\documents\_uned\fp\programas_c\cadena.h
+
+1610212447 c:\users\ana\documents\_uned\fp\programas_c\tad1.h
+	"Cadena.h"
+
+1610212473 source:c:\users\ana\documents\_uned\fp\programas_c\tad1.cpp
+	<stdio.h>
+	<string.h>
+	"TAD1.h"
+
+1610212137 source:c:\users\ana\documents\_uned\fp\programas_c\prueba\tad2.cpp
+	<stdio.h>
+	"TAD2.h"
+
+1610212122 c:\users\ana\documents\_uned\fp\programas_c\prueba\tad2.h
+	"Cadena.h"
+
+1610221492 c:\users\ana\documents\_uned\fp\programas_c\prueba\cadena.h
+
+1610221134 source:c:\users\ana\documents\_uned\fp\programas_c\prueba\prueba2.cpp
+	<stdio.h>
+	<string.h>
+	"TAD1.h"
+	"TAD2.h"
+	"Cadena.h"
+
+1610221023 c:\users\ana\documents\_uned\fp\programas_c\prueba\tad1.h
+	"Cadena.h"
+
+1610221023 source:c:\users\ana\documents\_uned\fp\programas_c\prueba\tad1.cpp
+	<stdio.h>
+	<string.h>
+	"TAD1.h"
+
+1610221023 source:c:\users\ana\documents\_uned\fp\programas_c\ejemplo_modulos_tad_y_cadenas\tad1.cpp
+	<stdio.h>
+	<string.h>
+	"TAD1.h"
+
+1610221853 c:\users\ana\documents\_uned\fp\programas_c\ejemplo_modulos_tad_y_cadenas\tad1.h
+	"Cadena.h"
+
+1610222845 c:\users\ana\documents\_uned\fp\programas_c\ejemplo_modulos_tad_y_cadenas\cadena.h
+
+1610221853 source:c:\users\ana\documents\_uned\fp\programas_c\ejemplo_modulos_tad_y_cadenas\tad2.cpp
+	<stdio.h>
+	"TAD2.h"
+
+1610212122 c:\users\ana\documents\_uned\fp\programas_c\ejemplo_modulos_tad_y_cadenas\tad2.h
+	"Cadena.h"
+
+1610222008 source:c:\users\ana\documents\_uned\fp\programas_c\ejemplo_modulos_tad_y_cadenas\ejemplo_modulos_tad_y_cadenas.cpp
+	<stdio.h>
+	<string.h>
+	"TAD1.h"
+	"TAD2.h"
+	"Cadena.h"
+

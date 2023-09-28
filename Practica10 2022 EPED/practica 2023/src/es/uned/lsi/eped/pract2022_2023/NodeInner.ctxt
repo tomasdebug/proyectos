@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=NodeInner
+comment1.params=l
+comment1.target=NodeInner(char)
+comment2.params=
+comment2.target=char\ getLetter()
+numComments=3

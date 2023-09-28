@@ -1,0 +1,188 @@
+/* -- Selectores -- */
+
+* {/* Selector universal */}
+main {/* Selector de etiqueta */}
+#id {/* Selector de id */}
+.clase {/* Selector de clase */}
+main, #id, .clase {/* Selector grupal */}
+p.clase {/* Selector etiqueta con atributo de clase */}
+article p {/* Selector de descendientes */}
+article > p {/* Selector de hijos */}
+p + p {/* Selector de hermanos (siguiente) */}
+p ~ p {/* Selector de hermanos adyacentes */}
+p[color="blue"]{/* Selector según atributo */}
+
+/* Pseudo clases */
+:root{/* Selector de la raíz (<html>) */}
+p:empty {/* Selector de elementos vacíos */}
+p:first-child {/* Selector primer hijo */}
+p:last-child {/* Selector último hijo */}
+p:nth-child(n) {/* Selector de hijo número n */}
+p:hover {/* Puntero por encima */}
+a:active {/* Al hacer click en el enlace */}
+a:link {/* Link en el que no se ha hecho clic */}
+a:visited{/* Link visitado */}
+div :not(p){/* Selector negativo (todos los que no son p dentro de un div) */}
+
+/* Pseudo elementos */
+p::after {content: "Hola"; /* Insertar antes del elemento */}
+p::before {/* Insertar después del elemento */}
+p::first-letter {/* Formato de la primera letra */}
+p::first-line {/* Formato de la primera fila */}
+p::selection {/* Formato al seleccionar */}
+
+
+/* -- Propiedades -- */
+
+/* Fondos */
+
+main {
+    background-image: url("fondo.jpg"); /* imagen para el fondo externa */
+    background-size: cover contain auto 500px 100%; /* tamaño de la imagen del fondo */
+    background-position: top left center; /* posición del fondo (cualquier esquina o centrado) */
+    background-repeat: repeat repeat-x repeat-y no-repeat; /* repetición del fondo (por defecto se repite) */
+    background-attachment: fixed scroll; /* seguimiento del fondo con el desplazamiento vertical */
+    background-color: blue; /* color de fondo */
+    background: #FFFFFF url("fondo.jpg") repeat top right; /* color, imagen, repeat, posición */
+}
+
+/* Bordes */
+
+main {
+    border: 1px solid green; /* ancho, estilo, color */
+    border-width: thin thick medium 3px; /* ancho del borde */
+    border-style: none hidden dotted dashed solid double groove ridge inset outset; /* estilo de borde */
+    border-color: white; /* color del borde */
+    border-bottom: 1px solid green; /* estilo concreto para el borde de abajo */
+    border-left: 1px solid green; /* para el del lado izq */
+    border-right: 1px solid green; /* para el del lado der */
+    border-top: 1px solid green; /* para el borde de arriba */
+    box-shadow: inset 5px black; /* sobreado del borde (inset para un sombreado interior) */
+    border-collapse: separate collapse; /* para la unión de los bordes contiguos en uno solo */
+    border-image: url("barra.jpg") repeat; /* para usar una imagen como borde */
+    border-radius: 5px 4px 3px 2px; /* para redondear las esquinas del borde */
+	outline: 10px groove #000099; /* borde secundario */
+    outline-offset: 5px; 
+}
+
+/* Modelo en cajas */
+
+main {
+    float: left right none; /* ubicación "flotante" en la que los elementos se "apilan" a un lado y el resto de elementos los rodean */
+    clear: none right left both; /* modificación para float en la que indicamos si el elemento se apila con los otros que tengan float o pasa a una línea nueva */
+    height: auto 50px 100%; /* altura del bloque */
+    width: auto 50px 100%; /* ancho del bloque */
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    margin: 5px 5px 5px 5px; /* top, right, bottom, left */
+    margin-top: 5px;
+    padding: 5px 5px 5px 5px; /* top, right, bottom, left */
+    padding-top: 5px;
+    overflow: visible hidden scroll auto;
+    overflow-x: visible hidden scroll auto;
+    visibility: visible hidden collapse;
+    display: none inline block inline-block flex inline-flex grid inline-grid table inline-table;
+    /* 
+        inline: elemento mostrado en línea (como un texto) que no admite modificación de ancho ni altura
+        block: elemento mostrado como bloque (ocupando todo el ancho)
+
+    */
+    z-index: 99;
+    box-sizing: border-box;
+	box-shadow: rgb(150,150,150) 5px 5px 10px; /* color separación-horiz separacion-vert difuminado */
+    line-height: 100px;
+	-webkit-transform: translateX(100px) rotate(20deg) scale(1.5); /* movimiento, rotación, escalado */
+    -webkit-transition: -webkit-transform 1s;
+    transition: height width linear ease ease-in ease-out 1s;
+}
+
+/* Fuentes */
+
+p{
+    font-style: italic normal oblique;
+    font-variant: small-caps;
+    font-weight: bold bolder lighter 500;
+    font-size: large small medium 10px;
+    font-family: Arial Helvetica Verdana 'Times New Roman';
+    font: italic bold 10px Arial;
+}
+
+@font-face {
+    font-family: fa;
+    src: url();
+}
+
+/* Texto */
+
+p {
+    text-align: center left right start end justify;
+    text-decoration: none underline overline line-through;
+    text-shadow: 2px black;
+    text-transform: capitalize uppercase lowercase;
+    word-wrap: normal;
+    word-break: break-word;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+}
+
+/* Flexbox */
+
+div.flex {
+    display: flex;
+    flex-direction: row column row-reverse column-reverse;
+    flex-wrap: wrap nowrap;
+    flex-flow: row wrap;
+    justify-content: center flex-start flex-end space-between space-evenly space-around;
+    align-content: center flex-start flex-end space-between space-evenly space-around stretch;
+    align-items: center flex-start flex-end stretch baseline;
+}
+div.flex > div {
+    flex: 1;
+}
+
+/* Grid */
+
+div.grid {
+    display: grid;
+    grid-auto-flow: row column;
+    grid-template: auto 50px 50% / auto auto;
+    column-gap: 5px;
+    row-gap: 5px;
+    gap: 5px;
+    justify-content: center start end space-between space-evenly space-around;
+    align-content: center start end space-between space-evenly space-around stretch;
+    align-items: center start end stretch baseline;
+    justify-items: center start end stretch;
+}
+
+div.grid > div {
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 1;
+}
+
+/* Media Queries */
+
+@media screen { /* screen: breakpoints */
+    /* insertar css que se aplicará cuando la pantalla cumpla las condiciones */
+}
+/* Ejemplos */
+@media (min-width: 640px) {
+    .row:nth-child(2) div{
+        font-family: verdana;
+        background-color: rgb(255, 174, 174);
+    }
+}
+@media (min-width: 900px) and (max-width:1799px) {
+    .row:nth-child(2) div{
+        font-family: Arial;
+        background-color: rgb(194, 194, 255);
+    }
+}
+@media (min-width: 1800px) {
+    .row:nth-child(2) div{
+        font-family: Impact;
+        background-color: rgb(152, 255, 152);
+    }
+}

@@ -1,0 +1,473 @@
+
+*{
+
+    margin: 0;
+    padding:0;
+    box-sizing: content-box;
+    font-family:  fuente1_enlaces;
+   
+
+}
+/*se puede utilizar una paleta de colores*/
+
+@font-face {/*funcion para definir una fuente descargada de internet*/
+  
+  
+    font-family: fuente1_enlaces;
+    src: url('/fuentes/Starjedi.ttf') format('truetype');
+
+  
+}
+
+html{
+
+    background-color: gray;
+}
+#cuerpo-wrapper{
+
+    margin:0px 40px 0px 40px;
+    padding: 0px 40px 0px 40px;
+  
+
+
+}
+/*menu de arriba*/
+header{
+height: 150px;
+background-image: url(../img/descarga.jpg);
+background-repeat: no-repeat;
+background-size: cover;/*me cubre todo y es flexible*/
+background-position-y: 50%;
+text-align: center;
+border-radius: 10px 10px 10px 10px;
+
+
+}   
+header span {
+display: inline-block;
+font:bold 20px verdana;
+text-shadow: 0 0 5px white;
+height: 10%;
+padding:50px;
+padding: auto;
+
+
+}
+.img_menu{
+
+    display: inline;
+    
+    }
+   
+/*menu de abajo*/
+
+li{
+   /* position: fixed;
+    bottom: 100px;
+    left: 30px; pone todos los elementos de la lista apilados unos entre sí*/
+    list-style: none;
+    visibility: unset;
+
+    
+}
+li a{
+  
+   text-decoration: none;
+}
+li a >*{
+    visibility: unset;
+    cursor: help;
+    display: inline-block;/*le pone el inline-block a cada hijo*/
+        }
+        */
+
+/*apartado 1 del ejercicio2*/
+nav{
+    visibility: unset;
+    position: fixed;
+    bottom: 10px;
+    left: 30px; 
+    width: 125px;   
+    margin: 0 20px 0 5px ;
+    padding:20px;
+
+}
+#youtube{
+
+    visibility: unset;
+        position: fixed;
+        bottom: 10px;
+        right: 100px; 
+        width: 100px;   
+        margin: 0 20px 0 5px ;
+        
+   
+}
+/*animaciones*/
+nav ul div:hover{
+    
+    transition: 1s;
+    transform: scaleY(0.95);
+}
+#youtube:hover{
+    
+    transition: 1s;
+    transform: scaleY(0.95);
+}
+/*link de cada uno*/
+#google:hover span:after{  
+ content: "google";
+ float: right;
+position: relative;
+bottom: 24px;
+left: 15px; 
+
+}
+#willyrex:hover span:after{  
+    content: "willy";
+    float: right;
+   position: relative;
+   bottom: 24px;
+   left: 15px; 
+   
+}
+#gmail:hover span:after{  
+    content: "gmail";
+    float: right;
+   position: relative;
+   bottom: 24px;
+   left: 15px; 
+   
+}
+#youtube:hover span:after{  
+   content: "yt";
+   float: right;
+   position: relative;
+   bottom: 24px;
+   right: 0px; 
+   
+}
+/*contenido del centro*/
+/*section{
+    
+    display: flex;
+    background-color: chocolate;
+    margin: 0 20px 0 5px ;
+    padding:20px;
+    height: auto;
+}
+section article{
+    validas:
+  
+    01,000111,0011  L=(0^n1^n) 0=apagado y 1 encendido
+    cabbc
+    caabbbc
+    cacabbcbc
+    cacaabbbcbc
+    caaabbbbc
+
+    flex:1;
+}
+*/
+.s1 div div{
+    
+  
+    height: 150px;
+    max-width: 300px; /*para hacerla psimetrica*/
+    min-width: 300px;/*para hacerla psimetrica*/
+   
+    padding: 10px;
+    display: table-cell;
+    border:solid 2px black;
+   
+}
+.tachado{
+    text-decoration: line-through 2px black;
+}
+.s1 div div:nth-child(2){
+ 
+    text-align: center;
+    
+}   
+.s1 div div:nth-child(3){
+ 
+    text-align: right;
+       
+}
+.s1 div:nth-child(1) div{/*del padre coge el hijo(segundo hijo div) y de ahí coge sus divs*/
+
+    vertical-align: top;
+}
+.s1 div:nth-child(2) div{/*del padre coge el hijo(segundo hijo div) y de ahí coge sus divs*/
+
+    vertical-align: middle;
+    /* direction: ltr;left to rigth*/   
+    direction: rtl;/*rigth to left*/
+    writing-mode: vertical-rl;
+    unicode-bidi:bidi-override;/*coge los caracteres invididualmente y los cambia de sitio (el caracter final es el inicial y viceversa)*/
+}
+.s1 div:nth-child(3) div{/*del padre coge el hijo(segundo hijo div) y de ahí coge sus divs*/
+
+    vertical-align: bottom;
+}
+
+/*tercera fila*/
+
+
+/*cuarta fila*/
+.s1 div:nth-child(4) div:nth-child(1){
+
+background-color: aqua;
+text-indent: 10px;/*cambia la sangría de la primera linea*/
+letter-spacing: 10px;/*cambia el espaciamiento*/
+line-height: 0,8;
+word-spacing: 5px;/*cambia de cada palabra el espacio reservado para cada una*/
+white-space: normal;/*pone espacios en blanco*/
+
+text-decoration-line:underline;
+text-decoration-color:rgb(184, 231, 89);/*te cambia el color de la linea(el color te cambia todo) */
+text-decoration-style:dashed;
+text-transform: lowercase;/*minuscula*/
+
+text-orientation: upright;/*cambia la orientacion del txt*/
+writing-mode: vertical-rl;/*pone el texto en vertical de derecha a izquierda*/
+
+
+}
+.s1 div:nth-child(4) div:nth-child(2){
+
+    background-color: rgb(0, 255, 0);
+    text-indent: 5px;/*cambia la sangría de la primera linea*/
+    letter-spacing: 5px;/*cambia el espaciamiento*/
+    line-height: 1,3;
+    word-spacing: -1px;/*cambia de cada palabra el espacio reservado para cada una*/
+    white-space: nowrap;/*no wrap=no me corta las lineas, el normal donde encuentra una separacion de palabra y no hay margen lo baja, el pre corta donde hayamos metido un espacio en el html*/
+
+    text-decoration-line:overline;
+    text-decoration-color:rgb(184, 231, 89);/*te cambia el color de la linea(el color te cambia todo) */
+    text-decoration-style:wavy;
+    text-transform: capitalize;/*mayusucula las primeras de todas*/
+
+    text-orientation: sideways;/*cambia la orientacion del txt*/
+    writing-mode: vertical-lr;/*pone el texto en vertical de derecha a izquierda*/
+
+    
+    }
+.s1 div:nth-child(4) div:nth-child(3){
+
+    background-color: rgb(255, 0, 255);
+    text-indent: -5px;/*cambia la sangría de la primera linea*/
+    letter-spacing: -2px;/*cambia el espaciamiento*/
+    line-height: 1,3;
+    word-spacing: -1px;/*cambia de cada palabra el espacio reservado para cada una*/
+    white-space: pre-line;/*pone espacios en blanco*/
+
+    text-decoration-line:line-through;
+    text-decoration-color:rgb(184, 231, 89);/*te cambia el color de la linea(el color te cambia todo) */
+    text-decoration-style:double;
+    text-transform: lowercase;/*minusucula*/
+
+    text-orientation: sideways-right;
+    writing-mode: vertical-lr;/*pone el texto en vertical de derecha a izquierda*/
+
+        
+ }
+/*TABLA DE ABAJO*/
+table {
+margin: 20px;
+
+border-collapse: collapse;/*junta todos los bordes*/
+}
+table tr td{
+    
+    border: solid 2px black;
+    min-width: 40px; 
+
+}
+section table tr:first-child{
+    height: 50px;   
+}
+/*como lo hice yo
+table tr td#bordegorodo1{
+
+  
+    border-left:  solid 5px  black;
+    border-bottom: solid 5px  black;
+    border-top: solid 5px  black;
+}
+table tr td#bordegorodo2{
+
+    border-right: solid 5px black;
+    border-top: solid 5px  black;
+}
+
+
+table tr td#bordegorodo3{
+
+    border-right: solid 5px black;
+
+}
+table tr td#bordegorodo4{
+
+    border-right: solid 5px black;
+    border-bottom:  solid 5px black;
+
+}
+table tr td#bordegorodo5{
+
+    
+    border-bottom:  solid 5px black;
+
+}
+table tr td#bordegorodo6{
+
+   
+    border-bottom:  solid 5px black;
+
+}
+table tr td#bordegorodo7{
+
+   border-right: solid 5px black;
+    border-bottom:  solid 5px black;
+
+}
+table tr td#bordegorodo8{
+
+    border-right: solid 5px black;
+   
+ 
+ }
+
+ table tr td#bordegorodo9{
+
+    border-right: solid 5px black;
+    
+ 
+ }
+
+ table tr td#bordegorodo10{
+
+    border-right: solid 5px black;
+    
+ 
+ }
+ 
+*/
+/*como se hace de forma eficiente*/
+.b-all{
+
+    border:solid 5px black !important;
+}
+.b-top{
+border-top: solid 5px black !important;
+}
+.b-left{
+
+    border-left: solid 5px black !important;
+}
+.b-bottom{
+
+    border-bottom: solid 5px black !important;
+} 
+.b-right{
+
+    border-right: solid 5px black !important;
+}
+#tablas .div{
+    
+ 
+}
+#tablas .filas{
+display: inline;
+padding: 0;
+
+clear:both;
+border: solid 2px black;
+    max-width: 90px;
+    width: 90px; 
+
+
+}
+.tablas {
+
+display: inline-block;/*filas inline-block, celdas block*/
+border: solid 2px black;
+border-collapse: collapse;
+ 
+
+}
+.tablas #A1{
+
+    height:200px !important;
+   
+   
+}
+.tablas #A2{
+    width: 80%;
+    display: block;
+
+   
+    
+
+}
+.tabla,.celda{
+border: solid 1px black;
+border-collapse: collapse;
+
+}
+.celda{
+    min-height: 20px;
+    min-width: 15px;
+}
+/*una vez he empaquetado las celdas con divs(que por defecto se ponen en block)les pongo un display inline-block para que tengan hermanos a sus lados (para apilarlos unos al lado de otros).*/
+.i-b{
+
+    display: inline-block !important;
+}/*no necesito un block porque los divs por defecto e dan*/
+.tabla-grid{
+
+    display:grid;
+    margin:40px 0px;
+    /*indicaremos el numero de filas y columnas*/
+    grid-template: auto auto auto auto auto auto/auto auto auto auto auto auto auto;/*eso es un 6x7(6 columnas 7 celdas)*/
+    gap: 0 0;
+    border: solid 2px black;
+    
+}
+.tabla-grid, .tabla-grid div{
+    border:solid 1px black;
+}
+.tabla-grid div:nth-child(1){
+
+    grid-row: span 6;/*necesita un valor inicial y uno final*/
+
+}
+.tabla-grid div:nth-child(2){
+
+    grid-column:span 6;/*empieza en la 2 y acaba en la 7*/
+}
+.tabla-grid div:nth-child(4),.tabla-grid div:nth-child(15){
+
+    grid-row: span 2;/*empieza en la 2 y acaba en la 3 el span es para indicar que se expanda es como en las tables*/
+}
+.tabla-grid div:nth-child(8){
+
+    grid-row: span 3;/*empieza en la 2 y acaba en la 3 el span es para indicar que se expanda es como en las tables*/
+}
+.tabla-grid div:nth-child(11),.tabla-grid div:nth-child(16){
+
+    grid-row: span 2;/*empieza en la 2 y acaba en la 3 el span es para indicar que se expanda es como en las tables*/
+    grid-column: span 2;
+    /*tambien se puede poner grid area que es la de los dos así grid-area:span 2/ span 2;*/
+}
+.tabla-grid div:nth-child(13){
+
+    grid-area: span 3/span 2;/*empieza en la 2 y acaba en la 3 el span es para indicar que se expanda es como en las tables*/
+}
+section iframe{
+
+min-width: 300px;
+min-height: 500px;
+margin:40px auto;
+
+}

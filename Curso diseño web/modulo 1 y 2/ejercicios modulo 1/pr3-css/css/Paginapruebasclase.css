@@ -1,0 +1,142 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+
+
+    background:#fffbb9 ;
+    text-align: center;
+    border: 2px solid #999999;/*pone un bordecito bonito*/
+    padding: 20px;
+
+}
+li{
+
+
+        width: 200px;
+}
+
+h1{/*font-style, font-variant, font-weight,
+    font-size/line-height, y font-family*/
+    font:bold  verdana 20px, sans-serif;
+    background-color: rgb(255, 113, 113) !important; 
+    text-align: center;
+    
+   
+}
+#agrupar{
+width: 960px;
+margin: 15px auto;
+text-align: left;
+border: 15px solid black;
+/*background-image:url(img/patron.jpg) 100 ;*/
+border-image: url(../img/patron.jpg) 29 repeat;/*los dos puntos son para inficarle al archivo que busque una carpeta mas arriba del css(pongo los 2 puntos y luego dejo que autocomplete)*/
+}
+#cabecera{
+
+background:#fffbb9 ;
+text-align: center;
+
+border: 2px solid #999999;/*pone un bordecito bonito*/
+padding: 20px;
+
+}
+
+
+#menu:hover{/*seudo elemento para que al pasar el raton por encima haga algo*/
+border-radius: 20px 20px 20px 20px;/*pixeles del radio del borde en sentido del reloj*/
+background: #CCCCCC;
+padding:  5px 15px;
+text-align: center; 
+-webkit-transform: translateX(100px)scale(1.2) rotate(200deg);/*transforma al doble del tamaño,se desplaza en la x*/
+-webkit-transition: -webkit-transform 1.5s;/*hace la transicion a modo de animacion*/
+-webkit-transform: translateY(3000px)scale(1.2) rotate(270deg);/*transforma al doble del tamaño,se desplaza en la x*/
+
+}
+#menu{/*seudo elemento para que al pasar el raton por encima haga algo*/
+    -webkit-transition:-webkit-transform 2s;
+
+}
+#t1{
+    width: 100%;
+ 
+   
+}
+#t2{
+    width: 40%;
+    height: auto;
+
+ 
+   
+}
+figure>img{/*quiero que la imagen se ajuste justo despues del padre no funciona porqué he hecho una tabla*/
+
+    width: 1000%;
+}
+#c{
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: bold; 
+    
+}
+@font-face {/*funcion para definir una fuente descargada de internet*/
+    font-family: "Star Jedi";/*nombre de la fuente*/
+    src: url(fuentes\Starjedi.ttf);/*nombre del archivo de donde vamos a sacar la fuente*/
+}
+#menu li{
+    font: "Star Jedi";
+    display: inline-block;/*lo pone en line pero con un margen bonito*/
+    list-style: none;
+    padding: 25px;
+    font:bold 14px verdana, sans serif;
+    box-shadow: #84889b -20px -15px 100px  inset;/*color  separacion de la caja(horizontal y vertical),difuminacion y sombra hacia adentro*/
+   
+}
+#seccion {
+    float: left;
+    width: 660px;
+    margin: 20px;
+    position: fixed;/*relatica a la pagina para cuando se mueva y tal*/
+    bottom:0;/*hay que especificar en fixed lo que hay que hacer */
+    right: 0;
+    width: 300px;
+       
+   }
+   p:hover{
+    background:-webkit-linear-gradient(top, #008cff ,#006699 )/*webkit es para navegadores chrome y linear gradient es para que haya un difuminado de arriba a abajo de un color a otro */
+    outline: 10px solid #000000;
+   }
+   #columna {
+    float: left;/*apilar a la izquierda*/
+    width: 220px;/*anchura*/
+    margin: 20px 0px;/*margen*/
+    padding: 20px;/*margen del*/
+    background: #CCCCCC;
+    box-shadow: #000000 7px 3px 10px ;/*color  separacion de la caja(horizontal y vertical) y difuminación*/
+ 
+    border-radius: 20px/30px;/*me hace de 20px a 30 px*/
+   }
+   #pie{
+    clear :both;/*limpia la configuracion del float que los dos anteriores */
+    text-align: center;
+    padding: 20px;
+     
+    border-top:2px solid #999999;
+    
+    background:#fffbb9 ;
+    text-align: center;
+    border: 2px solid #999999;/*pone un bordecito bonito*/
+    padding: 20px;
+
+   }
+  article footer
+  {
+text-align: right;
+
+  }
+  figcaption{
+    font:italic 14 px verdana,sans-serif;
+  }
+  /*border box crea el borde tipico de border padding y margin...Dejando el tamaño del objeto ,el  boxing box lo distribuye*/
+   

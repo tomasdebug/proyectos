@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AlmacenProductos
+comment0.text=\r\n\ Guardar\ productos\ y\ cambiar\ el\ precio\ de\ los\ productos\r\n
+comment1.params=
+comment1.target=AlmacenProductos()
+comment1.text=\r\n\ Instancia\r\n
+comment2.params=
+comment2.target=void\ cambiarPrecios()
+comment2.text=\r\n\ Cambia\ el\ precio\ de\ todos\ los\ productos\ a\ una\ cantidad\ aleatoria\r\n\ entre\ 0.1\ y\ 2\r\n\ \r\n\ @precon\ \ Tiene\ que\ haber\ pasado\ una\ semana\r\n
+comment3.params=nombre
+comment3.target=Producto\ getProducto(java.lang.String)
+comment3.text=\r\n\ Obtener\ un\ producto\ del\ arraylist\r\n\r\n\ @param\ \ \ nombre\ \ \ nombre\ del\ producto\ buscado\r\n
+comment4.params=i
+comment4.target=Producto\ getProducto(int)
+comment4.text=\r\n\ Devuelve\ el\ producto\ de\ una\ posicion\ del\ array\ determinada\r\n\ \r\n\ @return\ \ productos[i]\r\n
+comment5.params=
+comment5.target=Producto[]\ getProductos()
+comment5.text=\r\n\ Devuelve\ un\ array\ con\ todos\ los\ productos\r\n\ \r\n\ @return\ \ Producto[]\r\n
+numComments=6

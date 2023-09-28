@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Cooperativa
+comment0.text=\r\n\ Clase\ principal\ que\ abrira\ el\ menu\ de\ la\ aplicacion\ de\ la\ Cooperativa.\r\n\r\n\ @author\ Leire\ Arranz\ Esteban\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Procedimiento\ main,\ muestra\ un\ menu.\r\n\ Se\ muestra\ desde\ la\ perspectiva\ de\ que\ quien\ maneja\ el\ programa\ es\ un\r\n\ trabajador\ de\ la\ cooperativa,\ no\ un\ cliente.\r\n
+comment2.params=
+comment2.target=void\ opcionAyuda()
+comment3.params=
+comment3.target=void\ opcionCambiarFecha()
+comment4.params=
+comment4.target=void\ opcionMostrarProductos()
+comment5.params=
+comment5.target=void\ opcionMostrarProductores()
+comment6.params=
+comment6.target=void\ opcionMostrarEmpresas()
+comment7.params=
+comment7.target=void\ opcionA\u00F1adirPedido()
+numComments=8

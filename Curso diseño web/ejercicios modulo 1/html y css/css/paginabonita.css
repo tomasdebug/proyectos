@@ -1,0 +1,67 @@
+* { 
+    margin: 0px; 
+    padding: 0px; 
+   }
+   h1 { 
+    font: bold 20px verdana, sans-serif; 
+    text-align: center;
+   } 
+ blockquote{
+  margin: 8px; 
+  font: bold, italic, verdana, 20px
+
+ }
+
+ 
+
+ article{ 
+    display:inline-block;
+    vertical-align: top;
+    margin: 10px;
+    width: 45%;
+    background-color: darkcyan;
+
+ }
+ 
+body { 
+    
+    width: 70%;
+    padding: 20px;
+    margin: 0 20 0 20;
+    background-image: url(../img/cork-cork-mat-texture-pattern.jpg);
+    height: auto;
+   }
+ 
+  
+   #menu { 
+    background-color: #ffee00;
+    padding: 5px 15px;
+   } 
+   #menu li { 
+    
+    display: inline-block; 
+    list-style: none; 
+    padding: 5px 40px;
+    font: bold 14px verdana, sans-serif; 
+    border: 1px solid #002fff; 
+    margin: 35px;
+   }    
+  
+   #columna { 
+    margin: 0 20 0 0;
+    padding: 20px;
+    position: fixed;
+    top: 218px;
+    right: 0px;
+    width: 100px;
+    z-index: 999;
+    background: #CCCCCC; 
+   
+   }
+  
+footer >div{
+ 
+}
+
+
+

@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Administracion
+comment0.text=\r\n\ Administrar\ almacenes\r\n
+comment1.params=pr\ p\ kg
+comment1.target=boolean\ comprobarReservas(Productor,\ Producto,\ int)
+comment1.text=\r\n\ Comprueba\ si\ hay\ suficiente\ en\ la\ Cooperativa\ para\ hacer\ un\ pedido\r\n\ \r\n\ @param\ \ \ pr\ \ productor\ al\ que\ se\ hace\ el\ pedido\r\n\ @param\ \ \ p\ \ \ producto\ que\ se\ pide\r\n\ @param\ \ \ kg\ \ kilos\ de\ producto\ pedidos\r\n
+comment2.params=year\ p\ importe
+comment2.target=void\ a\u00F1adirBeneficioProducto(int,\ Producto,\ double)
+comment3.params=year\ p
+comment3.target=double\ getBeneficioProducto(int,\ Producto)
+numComments=4

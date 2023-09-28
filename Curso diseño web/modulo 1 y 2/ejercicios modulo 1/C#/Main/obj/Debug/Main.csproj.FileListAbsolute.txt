@@ -1,0 +1,8 @@
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\bin\Debug\Main.exe.config
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\bin\Debug\Main.exe
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\bin\Debug\Main.pdb
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\obj\Debug\Main.csproj.AssemblyReference.cache
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\obj\Debug\Main.csproj.SuggestedBindingRedirects.cache
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\obj\Debug\Main.csproj.CoreCompileInputs.cache
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\obj\Debug\Main.exe
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Main\obj\Debug\Main.pdb

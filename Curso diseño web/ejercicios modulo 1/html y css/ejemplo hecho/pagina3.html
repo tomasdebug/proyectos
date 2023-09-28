@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Pagina web inicio</title>
+    <link rel ="stylesheet" type="text/css" href="ejemplosolucion.css">
+    <link href="Index.html">
+    <link href="pagina2.html">
+    <link href="pagina3.html">
+    
+
+</head>
+<body>
+<div>
+    <nav class="menu">
+        <h1>Menu</h1>
+        <br>
+        <a href="index.html">Inicio</a>
+        <a href="pagina2.html">pag2</a>
+        <a href="pagina3.html">contacto</a>
+        <a href="https://www.microsoft.com/es-es/store/b/sale?&ef_id=EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE:G:s&s_kwcid=AL!4249!3!507887122963!e!!g!!microsoft!12581625734!121309185762&ef_id=EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE:G:s&OCID=AIDcmmgj973arw_SEM_EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE:G:s&gclid=EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE">microsoft</a>
+    </nav>
+</div>
+<main>
+  
+    <form>
+
+        <div>
+            <label for="nombre">Nombre</label><!--el label pone el nombre del formulario -->
+        </div>
+        <div>
+            <input type="text" required><!--el required significa que el CAMPO TIENE QUE ESTAR RELLENADO,sino da error.-->
+        </div>
+        
+        <div>
+            <label for="apellidos">apellidos</label><!--el label pone el nombre del formulario -->
+        </div>
+        <div>
+            <input type="text" required><!--el required significa que el CAMPO TIENE QUE ESTAR RELLENADO,sino da error.-->
+        </div>
+        <div>
+            <fieldset><!--MARQUITO BONITO-->
+                <legend>Elige</legend>
+                <input name="opcion" type="radio" value="opcion1"><!--el name es lo que me va a enviar de informacion(me va a enviar la info que ha puesto el usuario),el tipo es el tipo de info que da (texto,radio...) y el value es el valor dado-->
+                <label for="Opcion1"> Opcion1</label><!--no hace falta cerrar el input-->
+                <input name="opcion" type="radio" value="opcion2">
+                <label for="Opcion2"> Opcion2</label>
+                <input name="opcion" type="radio" value="opcion3">
+                <label for="Opcion3"> Opcion3</label>
+                <input name="opcion" type="radio" value="opcion4">
+                <label for="Opcion4"> Opcion4</label>
+            </fieldset>
+        </div>
+        <div>
+            <label for="desplegable">Lista desplegable</label>
+            <select required name="elemento">
+                <option selected disabled value="">Elige</option><!--el selected significa que está seleccionado por defecto  y el disabled es para que no lo puedas pulsar el value es obligatorio tiene que estar vacio por lo menos-->
+                <option   value="Elemento1">Elemento 1</option>
+                <option   value="Elemento2">Elemento 2</option>
+                <option   value="Elemento3">Elemento 3</option>
+                <option   value="Elemento4">Elemento 4</option>
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="Enviar"><!--en este caso el value es el label del boton ya que el type submit ya indica que es el envio del formulario-->
+            <input type="reset" value="Borrar">
+        </div>
+    </form>
+
+</main>
+    <aside>
+        <figure>
+            <img src="../img/atu-logo.png" alt="atu-logo">
+        </figure>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina2.html">pag1</a></li>
+            <li><a href="pagina3.html">pag2</a></li>
+
+
+        </ul>
+
+    </aside>
+    <footer>
+        <nav class="menu-foot">
+            <a href="https://www.google.es/">google</a>
+            <a href="https://es.wikipedia.org/wiki/Wikipedia:Portada">wikipedia</a>
+            <a href="https://www.microsoft.com/es-es/store/b/sale?&ef_id=EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE:G:s&s_kwcid=AL!4249!3!507887122963!e!!g!!microsoft!12581625734!121309185762&ef_id=EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE:G:s&OCID=AIDcmmgj973arw_SEM_EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE:G:s&gclid=EAIaIQobChMIqrGLusq6_gIVmoXVCh2ZdArqEAAYASAAEgIfoPD_BwE">microsoft</a>
+            <a href="https://www.twitter.com/">twiter</a>
+        </nav>
+        <address>
+            <figure>
+                <img src="../img/atu-logo.png" alt="atu-logo">
+            </figure>
+            <a href="mailto:hola@mundo.com">hola@mundo.com</a><!--mailto es un enlace especial que abre el cliente de correo por defeto y crear un mensaje con el remitente hhola@mundo.com -->
+            <a href="tel:+34111222333">tel:+34111222333</a>
+            <a href="mailto:hola@mundo.com"></a>
+            
+        </address>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*content box=le suma el contenido + borde y border box=le resta a la caja el contenido(los objetos se quedan siempre bien)*/
+}
+.row div{
+    border: solid 1px black;
+    padding: 15px;
+}
+.row::after{
+    clear: both;/*si hay elementos siguientes que son floats hace que no haga efecto los otros float, limita en cada row que no haya mas float a la izquierda y a la derecha*/
+    content:"";
+    display: table;/*la fila se convierte en una tabla y por tanto rellenaria los huecos sobrantes hasta la siguiente fila*/
+}
+
+/*anchos indico que columnas ocupa cada cosa */
+/*las celdas de una misma columna deben ocupar el 100*/
+.C0{width: 0%;}
+.C1{width: 16.66%;}
+.C2{width: 33.33%;}
+.C3{width: 50%;}
+.C4{width: 66.66%;}
+.C5{width: 83.33%;}
+.C6{width: 100%;}
+[class*="C"]{/*cualquier clase que empiece por c*/
+    float: left;
+    min-height: 50px;
+}
+/*para que se vea bien en movil*/
+@media (min-width:640px){
+    .row div:nth-child(2){
+        font-family:  Verdana, Geneva, Tahoma, sans-serif;
+        background-color: blue;
+    }
+}
+@media (min-width:900px) and (max-width:2000px){
+    .row div:nth-child(2){
+        font-family:  Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(255, 0, 13);
+    }
+}
+/*cuando este viendose en una pantalla mas grande cambiara de color*/
+@media (min-width:1800px){
+    .row div:nth-child(2){
+        font-family:  Verdana, Geneva, Tahoma, sans-serif;
+        background-color: rgb(51, 255, 0);
+    }
+}
+
+

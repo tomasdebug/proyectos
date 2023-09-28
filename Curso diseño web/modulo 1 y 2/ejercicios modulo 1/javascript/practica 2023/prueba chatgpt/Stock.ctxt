@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Stock
+comment1.params=producto\ unidades
+comment1.target=Stock(java.lang.String,\ int)
+comment2.params=
+comment2.target=java.lang.String\ getProducto()
+comment3.params=
+comment3.target=int\ getUnidades()
+comment4.params=unidades
+comment4.target=void\ setUnidades(int)
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+comment6.params=palabra1\ palabra2
+comment6.target=boolean\ compararPalabras(java.lang.String,\ java.lang.String)
+numComments=7

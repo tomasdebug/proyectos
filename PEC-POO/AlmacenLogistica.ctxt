@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=AlmacenLogistica
+comment0.text=\r\n\ Guardar\ y\ gestionar\ empresas\ de\ logistica\r\n
+comment1.params=
+comment1.target=AlmacenLogistica()
+comment2.params=emp
+comment2.target=void\ addEmpresa(EmpresaLogistica)
+comment3.params=granLog\ peqLog\ p\ km\ kg
+comment3.target=double\ realizarLog\u00EDstica(EmpresaLogistica,\ EmpresaLogistica,\ Producto,\ int,\ int)
+comment4.params=
+comment4.target=java.util.ArrayList\ getEmpresas()
+comment5.params=nombre
+comment5.target=EmpresaLogistica\ getEmpresa(java.lang.String)
+comment5.text=\r\n\ Obtener\ una\ empresa\ del\ arraylist\r\n\r\n\ @param\ \ \ nombre\ \ \ nombre\ de\ la\ empresa\ buscada\r\n
+numComments=6

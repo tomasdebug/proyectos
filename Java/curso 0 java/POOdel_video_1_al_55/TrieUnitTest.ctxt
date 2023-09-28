@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=TrieUnitTest
+comment1.params=
+comment1.target=void\ whenEmptyTrie_thenNoElements()
+comment2.params=
+comment2.target=void\ givenATrie_whenAddingElements_thenTrieNotEmpty()
+comment3.params=
+comment3.target=void\ givenATrie_whenAddingElements_thenTrieHasThoseElements()
+comment4.params=
+comment4.target=void\ givenATrie_whenLookingForNonExistingElement_thenReturnsFalse()
+comment5.params=
+comment5.target=void\ givenATrie_whenDeletingElements_thenTreeDoesNotContainThoseElements()
+comment6.params=
+comment6.target=void\ givenATrie_whenDeletingOverlappingElements_thenDontDeleteSubElement()
+comment7.params=
+comment7.target=Trie\ createExampleTrie()
+numComments=8

@@ -1,0 +1,8 @@
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\bin\Debug\sandbox-clase.exe.config
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\bin\Debug\sandbox-clase.exe
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\bin\Debug\sandbox-clase.pdb
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\obj\Debug\sandbox-clase.csproj.AssemblyReference.cache
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\obj\Debug\sandbox-clase.csproj.SuggestedBindingRedirects.cache
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\obj\Debug\sandbox-clase.csproj.CoreCompileInputs.cache
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\obj\Debug\sandbox-clase.exe
+C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\sandbox-clase\obj\Debug\sandbox-clase.pdb

@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    text-decoration: none;
+    /*box-sizing:border-box contará el contenido desde el borde*/
+    box-sizing:content-box /*coge el ancho desde el contenido */
+}
+/*Lista de arriba*/
+nav ul {
+    display:flex;
+}
+nav ul li{
+    flex:1;
+    margin:20px;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+    background-color: aqua;
+    border:dotted 3px black  ;
+    border-radius: 10px;
+}
+   
+    
+main{
+    background-color: rgb(194, 248, 0);
+    margin:0 20px;
+    width: 100%;
+
+}
+article{
+    margin:0% 20%  20% 20%;
+   
+    padding: 0% 0% 50% 0%;
+   
+    background-color: rgb(206, 0, 0);
+   
+   
+}
+article input{
+ margin:10px; 
+
+}
+article{
+    display: flex;
+    flex-direction: row;
+   
+}
+#galeria{
+    flex: 1;
+    flex-wrap: wrap;
+   flex-direction: row;
+    box-sizing: content-box;
+    
+}
+#galeria div{
+    
+    
+}
+    
+    
+
+
+
+
+
+
+
+
+footer{
+
+text-align: left;  
+
+display: grid;
+width: 100%;
+
+background-color: rgb(50, 124, 0);
+min-width: 100%;
+
+
+}
+
+footer a{
+flex:1;
+ margin: 10px;
+ max-width: 30%;
+background-color: white;
+  
+}
+#contador{
+    background-color: wheat;
+    max-width: fit-content;
+    margin: 20px;
+    text-align: center;
+}
+ol{
+    background-color: wheat;
+    max-width: fit-content;
+    margin: 30px;
+    padding: 20px;
+  
+    align-self: center;
+    border: black dashed 2px ;
+    border-radius: 10px;
+}
+ol li{
+    padding: 5px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding:20px;
+    text-align: center;
+    align-self: center;
+}
+#tabla{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding:20px;
+    text-align: center;
+    align-self: center;
+}

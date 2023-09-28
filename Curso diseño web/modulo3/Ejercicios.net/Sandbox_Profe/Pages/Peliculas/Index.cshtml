@@ -1,0 +1,76 @@
+﻿@page "{CadenaBusqueda?}"
+@* La restricción de ruta "{CadenaBusqueda?}" permite sustituir "?CadenaBusqueda=PeliEjemplo2" por simplemente "/PeliEjemplo2" *@
+@* Si le quitamos el "?" se considera un parámetro obligatorio en la ruta *@
+@model Sandbox7.Pages.Peliculas.IndexModel
+
+@{
+    ViewData["Title"] = "Índice de películas";
+}
+
+<h1>Índice de películas</h1>
+
+<p>
+    <a asp-page="Create">Crear película nueva</a>
+</p>
+@* Formulario para búsqueda *@
+<form>
+    <p>
+        <select asp-for="GeneroPeli" asp-items="Model.ListaGeneros">
+            <option value="">Todos</option>
+        </select>
+        Título: <input type="text" asp-for="CadenaBusqueda" />
+        <input type="submit" value="Buscar"
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* "Ayudante" para extraer el nombre de la propiedad y mostrarla *@
+                @Html.DisplayNameFor(model => model.Pelicula[0].Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pelicula[0].FechaSalida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pelicula[0].Genero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pelicula[0].Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pelicula[0].Valoracion)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Pelicula) {
+        <tr>
+            <td>
+                @* "Ayudante" para extraer valor de una propiedad y mostrarlo *@
+                @Html.DisplayFor(modelItem => item.Titulo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FechaSalida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Genero)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Valoracion)
+            </td>
+            <td>
+                @* Llamadas a las IDs de las películas que se pasarán como cadena de consulta y "generarán" las páginas correspondientes a ese elemento de la BB.DD. *@
+                <a asp-page="./Edit" asp-route-id="@item.ID">Editar</a> |
+                <a asp-page="./Details" asp-route-id="@item.ID">Detalles</a> |
+                <a asp-page="./Delete" asp-route-id="@item.ID">Borrar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

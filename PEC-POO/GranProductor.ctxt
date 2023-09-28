@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GranProductor
+comment0.text=\r\n\ Tipo\ de\ productor\ con\ hect\u00E1reas\ totales\ mayores\ al\ l\u00EDmite.\r\n
+comment1.params=n
+comment1.target=GranProductor(java.lang.String)
+comment1.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ GranProductor\r\n\ \r\n\ @param\ \ \ n\ \ \ nombre\ del\ productor\r\n
+comment2.params=n\ p
+comment2.target=GranProductor(java.lang.String,\ java.util.HashMap)
+comment2.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ GranProductor\r\n\ \r\n\ @param\ \ \ n\ \ \ nombre\ del\ productor\r\n\ @param\ \ \ p\ \ \ HashMap<String,Double>\ con\ una\ lista\ de\ nombres\ de\ productos\ y\ las\ hect\u00E1reas\ que\ posee\r\n
+numComments=3

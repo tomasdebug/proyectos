@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=URL
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ URL\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=url
+comment1.target=URL(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ URL\r\n
+comment2.params=
+comment2.target=java.lang.String\ GetUrl()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=url
+comment3.target=void\ SetUrl(java.lang.String)
+numComments=4

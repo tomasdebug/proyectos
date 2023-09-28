@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=libro
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ libro\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=titulo\ autor\ isbn
+comment1.target=libro(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ libro\r\n
+comment2.params=
+comment2.target=java.lang.String\ getTitulo()
+comment3.params=titulo
+comment3.target=void\ setTitulo(java.lang.String)
+comment4.params=
+comment4.target=java.lang.String\ getAutor()
+comment5.params=autor
+comment5.target=void\ setAutor(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getIsbn()
+comment7.params=isbn
+comment7.target=void\ setIsbn(java.lang.String)
+numComments=8

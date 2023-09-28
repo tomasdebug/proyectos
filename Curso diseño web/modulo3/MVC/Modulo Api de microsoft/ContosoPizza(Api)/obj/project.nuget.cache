@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "QoCQsgw4gARbNe5j0rZH+btaRcm07K3OUSq0ubVfDv9S9tgGtDCmemD/8l1qdeKrL1GNklGTBUFI0QiJHQybug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Curso Mañana\\Desktop\\curso diseño web\\modulo3\\MVC\\Modulo Api de microsoft\\ContosoPizza(Api)\\ContosoPizza(Api).csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Curso Mañana\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.5\\microsoft.aspnetcore.openapi.7.0.5.nupkg.sha512",
+    "C:\\Users\\Curso Mañana\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\Curso Mañana\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Curso Mañana\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\Curso Mañana\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\Curso Mañana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\Curso Mañana\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=AlmacenProductores
+comment0.text=\r\n\ Gestor\ de\ productores\ y\ almac\u00E9n\ de\ arrays/arraylist\r\n\ Aqu\u00ED\ se\ determina\ el\ tipo\ de\ productor\r\n
+comment1.params=
+comment1.target=AlmacenProductores()
+comment1.text=\r\n\ Constructor\ para\ objetos\ de\ la\ clase\ AlmacenProductores\r\n
+comment2.params=p
+comment2.target=void\ addProductor(Productor)
+comment2.text=\r\n\ A\u00F1ade\ un\ productor\ a\ la\ lista\ de\ productores\ totales\r\n
+comment3.params=p
+comment3.target=void\ addProductorFede(ProductorFede)
+comment3.text=\r\n\ A\u00F1ade\ un\ productor\ federado\r\n
+comment4.params=
+comment4.target=void\ cambiarLimite()
+comment5.params=
+comment5.target=void\ comprobarGrandesProductores()
+comment6.params=
+comment6.target=void\ comprobarPeque\u00F1osProductores()
+comment7.params=
+comment7.target=java.util.ArrayList\ getProdTotales()
+comment8.params=
+comment8.target=java.util.HashMap\ getProdFedeTotales()
+comment9.params=nombre
+comment9.target=Productor\ getProductor(java.lang.String)
+comment9.text=\r\n\ Obtener\ un\ productor\ del\ arraylist\r\n\r\n\ @param\ \ \ nombre\ \ \ nombre\ del\ productor\ buscado\r\n
+numComments=10

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Pila
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Pila\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=url
+comment1.target=void\ apilar(URL)
+comment2.params=
+comment2.target=void\ desapilar()
+comment3.params=
+comment3.target=URL\ obtener()
+comment4.params=
+comment4.target=int\ longitud()
+comment5.params=
+comment5.target=boolean\ vacia()
+numComments=6

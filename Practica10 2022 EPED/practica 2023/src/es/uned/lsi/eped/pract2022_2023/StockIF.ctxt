@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=StockIF
+comment0.text=\ Representa\ un\ Stock\ en\ el\ que\ se\ indexan\ valores\ enteros\r\n\ bajo\ un\ indice\ formado\ por\ una\ cadena\ de\ caracteres\r\n
+comment1.params=p
+comment1.target=int\ retrieveStock(java.lang.String)
+comment1.text=\ Devuelve\ el\ valor\ indexado\ bajo\ el\ indice\ p.\r\n\ @PRE\:\ p\ \!\=\ ""\r\n\ Si\ no\ existe\ un\ valor\ indexado\ bajo\ el\ indice\ p,\r\n\ devuelve\ el\ valor\ -1.\r\n
+comment2.params=p\ u
+comment2.target=void\ updateStock(java.lang.String,\ int)
+comment2.text=\ Indexa\ el\ valor\ u\ bajo\ el\ indice\ p.\r\n\ @PRE\:\ p\ \!\=\ ""\ y\ u\ >\=\ 0\r\n\ Si\ ya\ habia\ un\ valor\ bajo\ el\ mismo\ indice,\r\n\ el\ nuevo\ valor\ substituye\ al\ anterior.\r\n
+comment3.params=prefix
+comment3.target=es.uned.lsi.eped.DataStructures.SequenceIF\ listStock(java.lang.String)
+comment3.text=\ Devuelve\ una\ secuencia\ de\ todos\ los\ pares\ <p,u>\r\n\ presentes\ en\ el\ stock\ tales\ que\:\r\n\ -El\ valor\ indexado\ bajo\ el\ \u00C3\u00ADndice\ p\ es\ u\r\n\ -El\ \u00C3\u00ADndice\ p\ comienza\ por\ la\ cadena\ prefix\r\n\ Adem\u00C3\u00A1s,\ la\ secuencia\ deber\u00C3\u00A1\ estar\ ordenada\ seg\u00C3\u00BAn\r\n\ el\ orden\ alfab\u00C3\u00A9tico\ de\ los\ productos\r\n
+numComments=4

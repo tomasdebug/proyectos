@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Cliente
+comment0.text=\r\n\ Cliente\:\ Distribuidor\ o\ Consumidor\ final,\ compran\ los\ productos\ y\ pagan\ la\ logistica\r\n\ Se\ guardan\ los\ registros\ de\ pedidos\ para\ cada\ cliente\r\n
+comment1.params=n\ t
+comment1.target=Cliente(java.lang.String,\ Cliente.tipo)
+comment2.params=p
+comment2.target=void\ addPedido(Pedido)
+comment3.params=p\ pr\ kg\ km\ eg\ ep
+comment3.target=Pedido\ realizarPedido(Producto,\ Productor,\ int,\ int,\ EmpresaLogistica,\ EmpresaLogistica)
+comment3.text=\r\n\ Realizar\ un\ pedido\ de\ parte\ de\ un\ cliente\r\n\ \r\n\ @param\ \ \ t\ \ \ tipo\ de\ cliente\ (Distribuidor\ /\ Consumidor)\r\n\ @param\ \ \ p\ \ \ producto\ pedido\r\n\ @param\ \ \ pr\ \ productor\ al\ que\ se\ hizo\ el\ pedido\r\n\ @param\ \ \ kg\ \ kilos\ de\ producto\ pedidos\r\n\ @param\ \ \ km\ \ distancia\ de\ la\ cooperativa\ al\ destino\r\n\ @param\ \ \ eg\ \ empresa\ que\ har\u00E1\ la\ gran\ log\u00EDstica\r\n\ @param\ \ \ ep\ \ empresa\ que\ har\u00E1\ la\ peque\u00F1a\ log\u00EDstica\r\n
+numComments=4

@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Uso_Empleado_anterior
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Uso_empleado\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=empleado
+comment1.target=void\ listar(Empleado)
+numComments=2
