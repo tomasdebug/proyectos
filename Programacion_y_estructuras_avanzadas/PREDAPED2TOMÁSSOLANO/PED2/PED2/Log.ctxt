@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Log
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Log\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=doc\ docSalida
+comment1.target=Log(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Log\r\n
+comment2.params=casilla\ mantenertxt\ cambiodelinea
+comment2.target=void\ escritura(TCasilla,\ boolean,\ boolean)
+comment3.params=
+comment3.target=char[][]\ ObtenerEdificioConEntrada()
+comment4.params=
+comment4.target=java.lang.String\ getSalida()
+comment5.params=
+comment5.target=int\ getLARGO()
+comment6.params=
+comment6.target=int\ getANCHO()
+numComments=7

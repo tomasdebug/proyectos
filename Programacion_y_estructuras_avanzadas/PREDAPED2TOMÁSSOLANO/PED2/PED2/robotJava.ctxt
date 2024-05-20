@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=robotJava
+comment1.params=x\ y
+comment1.target=TCasilla(int,\ int)
+comment10.params=traza\ help\ fEntrada\ fSalida
+comment10.target=void\ java_robot(boolean,\ boolean,\ java.lang.String,\ java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=TEdificio\ casilla\ TEdificioB\ solucion\ exito
+comment3.target=boolean\ BuscaTornillo(char[][],\ TCasilla,\ boolean[][],\ java.util.ArrayList,\ boolean)
+comment4.params=
+comment4.target=void\ help()
+comment5.params=TEdificioB
+comment5.target=void\ traza(boolean[][])
+comment6.params=solucion
+comment6.target=void\ imprimir(java.util.ArrayList)
+comment7.params=TEdificio\ casilla
+comment7.target=java.util.ArrayList\ camino(char[][],\ TCasilla)
+comment8.params=
+comment8.target=char[][]\ ObtenerEdificio()
+comment9.params=
+comment9.target=char[][]\ ObtenerEdificioConEntrada()
+numComments=11
