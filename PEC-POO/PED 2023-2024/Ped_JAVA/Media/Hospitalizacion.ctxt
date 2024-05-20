@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Hospitalizacion
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Hospitalizacion\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Hospitalizacion()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Hospitalizacion\r\n
+comment2.params=p
+comment2.target=void\ EncamarPaciente(Paciente)
+comment2.text=\r\nmetodo\ para\ ingresar\ pacientes\r\n\r\n\ @param\ p\ \:paciente\ que\ se\ va\ a\ ingresar\r\n
+comment3.params=
+comment3.target=int\ getNumCama()
+comment3.text=\r\nmetodo\ para\ sacar\ el\ numero\ de\ camas\ disponibles\r\n\r\n
+numComments=4

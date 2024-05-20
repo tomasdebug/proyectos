@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Consultas_externas
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Consultas_externas\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Consultas_externas()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Consultas_externas\r\n
+comment2.params=p\ admin
+comment2.target=void\ recetarPaciente(Paciente,\ Administracion)
+comment2.text=\r\n\ M\u00E9todo\ para\ recetar\ un\ tratamiento\ a\ un\ paciente\ en\ consulta\ externa.\r\n\ @param\ p\ El\ paciente\ al\ que\ se\ le\ recetar\u00E1\ el\ tratamiento.\r\n\ @param\ admin\ La\ instancia\ de\ la\ clase\ Administracion\ para\ acceder\ a\ la\ informaci\u00F3n\ y\ servicios\ administrativos.\r\n
+comment3.params=p\ admin
+comment3.target=void\ revisionPaciente(Paciente,\ Administracion)
+comment3.text=\r\n\ M\u00E9todo\ para\ realizar\ la\ revisi\u00F3n\ de\ un\ paciente\ en\ consulta\ externa.\r\n\ @param\ p\ El\ paciente\ que\ se\ va\ a\ revisar.\r\n\ @param\ admin\ La\ instancia\ de\ la\ clase\ Administracion\ para\ acceder\ a\ la\ informaci\u00F3n\ y\ servicios\ administrativos.\r\n
+numComments=4

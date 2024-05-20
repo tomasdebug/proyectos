@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Oficina_Mantenimiento
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Oficina_Mantenimiento\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=lis_empleados
+comment1.target=Oficina_Mantenimiento(java.util.ArrayList)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Oficina_Mantenimiento.\r\n\ \r\n\ @param\ lis_empleados\ La\ lista\ de\ empleados\ de\ mantenimiento\ de\ la\ oficina.\r\n
+comment2.params=ProblemaMantenimiento
+comment2.target=void\ AnnadirProblemaDeMantenimiento(java.lang.String)
+comment2.text=\r\n\ A\u00F1ade\ un\ problema\ de\ mantenimiento\ a\ la\ lista\ de\ problemas\ de\ mantenimiento.\r\n\ \r\n\ @param\ ProblemaMantenimiento\ El\ problema\ de\ mantenimiento\ que\ se\ a\u00F1adir\u00E1\ a\ la\ lista.\r\n
+comment3.params=
+comment3.target=void\ RPMEEMP()
+comment3.text=\r\n\ Metodo\ para\ repartir\ problemas\ de\ mantenimiento\ entre\ empleados\r\n
+numComments=4

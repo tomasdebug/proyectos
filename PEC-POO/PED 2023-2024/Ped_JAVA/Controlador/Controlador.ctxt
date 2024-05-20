@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Controlador
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Controlador\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Controlador()
+comment2.params=
+comment2.target=void\ InstanciarDatos()
+comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
+comment3.params=datos
+comment3.target=void\ MandarDatos(java.lang.String)
+comment3.text=\r\n\ Metodo\ para\ mandar\ datos\ a\ la\ interfaz\ del\ MVC\ y\ que\ est\u00E1\ los\ imprima\r\n\ @param\ datos\:\ string\ con\ los\ datos\ a\ imprimir\r\n
+comment4.params=
+comment4.target=Media.Administracion\ getAdministracion()
+comment4.text=\r\n\ Metodo\ para\ sacar\ los\ datos\ del\ paquete\ Media\ del\ modelo\ MVC\r\n
+numComments=5

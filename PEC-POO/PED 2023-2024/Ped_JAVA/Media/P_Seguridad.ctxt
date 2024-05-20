@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=P_Seguridad
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ P_Seguridad\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=p
+comment1.target=P_Seguridad(Personal_Soporte_Hospital)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ P_Seguridad\r\n\ @param\ p\:personal\ que\ quiero\ que\ se\ haga\ del\ personal\ de\ seguridad\r\n
+comment2.params=edad\ nomComp\ DNI\ fecha_nac_en_String\ turno
+comment2.target=P_Seguridad(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ P_Seguridad.\r\n\ \r\n\ @param\ edad\ La\ edad\ del\ personal\ de\ cafeter\u00EDa.\r\n\ @param\ nomComp\ El\ nombre\ completo\ del\ personal\ de\ cafeter\u00EDa.\r\n\ @param\ DNI\ El\ n\u00FAmero\ de\ DNI\ del\ personal\ de\ cafeter\u00EDa.\r\n\ @param\ fecha_nac_en_String\ La\ fecha\ de\ nacimiento\ del\ personal\ de\ cafeter\u00EDa\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ personal\ de\ cafeter\u00EDa.\r\n
+comment3.params=incidencia
+comment3.target=void\ NotificarIncidencia(java.lang.String)
+comment3.text=\r\n\ M\u00E9todo\ para\ notificar\ una\ incidencia\ al\ guarda\ de\ seguridad.\r\n\ El\ guarda\ de\ seguridad\ verifica\ la\ incidencia\ recibida.\r\n\ \r\n\ @param\ incidencia\ La\ descripci\u00F3n\ de\ la\ incidencia\ que\ se\ debe\ verificar.\r\n
+numComments=4

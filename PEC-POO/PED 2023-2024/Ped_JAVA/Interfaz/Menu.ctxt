@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Menu
+comment0.text=\r\n\ Clase\ que\ representa\ el\ men\u00FA\ principal\ del\ sistema\ del\ hospital.\r\n\ Permite\ al\ usuario\ interactuar\ con\ diferentes\ opciones\ del\ sistema.\r\n\ \r\n\ @author\ (tomas)\r\n\ @version\ (1.0)\r\n
+comment1.params=controlador
+comment1.target=Menu(Controlador.Controlador)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Menu.\r\n\ \r\n\ @param\ controlador\ El\ controlador\ que\ maneja\ la\ l\u00F3gica\ del\ sistema\ del\ hospital.\r\n
+comment2.params=
+comment2.target=void\ Main()
+comment2.text=\r\n\ Menu\ principal\r\n
+comment3.params=
+comment3.target=void\ subMenuEmpleados()
+comment3.text=\r\n\ Submenu\ donde\ administrar\ empleados\r\n
+comment4.params=
+comment4.target=void\ subMenuSanitarios()
+comment4.text=\r\n\ Submenu\ donde\ administrar\ sanitarios\r\n
+comment5.params=
+comment5.target=void\ SubMenuPacientes()
+comment5.text=\r\n\ Submenu\ donde\ administrar\ pacientes\r\n
+comment6.params=datos
+comment6.target=void\ Print(java.lang.String)
+comment6.text=\r\n\ Metodo\ para\ printar\ datos\ mandados\ desde\ el\ controlador\r\n
+numComments=7

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Personal_Sanitario
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Personal_Sanitario\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=p
+comment1.target=Personal_Sanitario(Personal)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Personal_Sanitario.\r\n\ \r\n\ @param\ p\ Personal\ cualquiera\ del\ hospital.\r\n
+comment2.params=edad\ nomComp\ DNI\ fecha_nac_en_String\ turno
+comment2.target=Personal_Sanitario(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ Personal_Sanitario.\r\n\ \r\n\ @param\ edad\ La\ edad\ del\ personal\ sanitario.\r\n\ @param\ nomComp\ El\ nombre\ completo\ del\ personal\ sanitario.\r\n\ @param\ DNI\ El\ n\u00FAmero\ de\ DNI\ del\ personal\ sanitario.\r\n\ @param\ fecha_nac_en_String\ La\ fecha\ de\ nacimiento\ del\ personal\ sanitario\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ personal\ sanitario.\r\n
+comment3.params=
+comment3.target=boolean\ getDisponibilidad()
+comment3.text=\r\n\ Getter\ de\ la\ disponibilidad\ que\ tiene\ el\ personal\ actual\r\n
+comment4.params=disponibilidad
+comment4.target=void\ setDisponibilidad(boolean)
+comment4.text=\r\n\ Setter\ de\ la\ disponibilidad\ que\ tiene\ el\ personal\ actual\r\n\ @param\ disponibilidad\ disponibilidad\ que\ tiene\ el\ medico\ actualmente.\r\n
+comment5.params=turno
+comment5.target=void\ setTurno(java.lang.String)
+comment5.text=\r\n\ Setter\ del\ turno\ que\ tiene\ el\ personal\ actual\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ personal\ sanitario.\r\n
+numComments=6

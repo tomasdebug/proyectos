@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Personal_Soporte_Hospital
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Personal_Soporte_hospital\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=p
+comment1.target=Personal_Soporte_Hospital(Personal)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Personal_Soporte_hospital\r\n\ @param\ p\:\ personal\ de\ soporte\ elegido\ \r\n
+comment2.params=edad\ nomComp\ DNI\ fecha_nac_en_String\ turno
+comment2.target=Personal_Soporte_Hospital(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ Personal_Soporte_Hospital.Desde\ cero\r\n\ \r\n\ @param\ edad\ La\ edad\ del\ personal\ de\ soporte\ hospitalario.\r\n\ @param\ nomComp\ El\ nombre\ completo\ del\ personal\ de\ soporte\ hospitalario.\r\n\ @param\ DNI\ El\ n\u00FAmero\ de\ DNI\ del\ personal\ de\ soporte\ hospitalario.\r\n\ @param\ fecha_nac_en_String\ La\ fecha\ de\ nacimiento\ del\ personal\ de\ soporte\ hospitalario\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ personal\ de\ soporte\ hospitalario.\r\n
+numComments=3

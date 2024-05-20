@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Persona
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Persona\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=e\ nom\ dni
+comment1.target=Persona(int,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Persona.\r\n\ \r\n\ @param\ e\ La\ edad\ de\ la\ persona.\r\n\ @param\ nom\ El\ nombre\ completo\ de\ la\ persona.\r\n\ @param\ dni\ El\ n\u00FAmero\ de\ DNI\ de\ la\ persona.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDNI()
+comment2.text=\r\n\ Devuelve\ el\ n\u00FAmero\ de\ DNI\ de\ la\ persona.\r\n\ \r\n\ @return\ El\ n\u00FAmero\ de\ DNI\ de\ la\ persona.\r\n
+comment3.params=
+comment3.target=int\ getEdad()
+comment3.text=\r\n\ Devuelve\ la\ edad\ de\ la\ persona.\r\n\ \r\n\ @return\ La\ edad\ de\ la\ persona.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNom()
+comment4.text=\r\n\ Devuelve\ el\ nombre\ completo\ de\ la\ persona.\r\n\ \r\n\ @return\ El\ nombre\ completo\ de\ la\ persona.\r\n
+numComments=5

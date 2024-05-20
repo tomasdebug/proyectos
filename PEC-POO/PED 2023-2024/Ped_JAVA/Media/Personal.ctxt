@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Personal
+comment1.params=p\ turno\ fecha_de_incorporacion
+comment1.target=Personal(Persona,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Personal.\r\n\ \r\n\ @param\ p\ Objeto\ de\ tipo\ Persona\ que\ representa\ al\ personal.\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ personal.\r\n\ @param\ fecha_de_incorporacion\ La\ fecha\ de\ incorporaci\u00F3n\ del\ personal\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n
+comment2.params=edad\ nombreCompleto\ DNI\ fecha_de_incorporacion\ turno
+comment2.target=Personal(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ Personal.\r\n\ \r\n\ @param\ edad\ La\ edad\ del\ personal.\r\n\ @param\ nombreCompleto\ El\ nombre\ completo\ del\ personal.\r\n\ @param\ DNI\ El\ n\u00FAmero\ de\ DNI\ del\ personal.\r\n\ @param\ fecha_de_incorporacion\ La\ fecha\ de\ incorporaci\u00F3n\ del\ personal\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ personal.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getProf()
+comment3.text=\r\n\ Getter\ para\ coger\ la\ profesion\r\n
+comment4.params=
+comment4.target=java.lang.String\ getTurno()
+comment4.text=\r\n\ Getter\ para\ turno\r\n
+comment5.params=
+comment5.target=java.time.LocalDate\ getFechaIncorporacion()
+comment5.text=\r\n\ Getter\ coger\ la\ fehca\ de\ incorporacion\r\n
+comment6.params=turno
+comment6.target=void\ setTurno(java.lang.String)
+comment6.text=\r\n\ Setter\ para\ poner\ un\ turno\r\n
+numComments=7

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Paciente
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Paciente\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=edad\ nombrecompleto\ dni\ exp
+comment1.target=Paciente(int,\ java.lang.String,\ java.lang.String,\ ExpedienteMedico)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Paciente.\r\n\ \r\n\ @param\ edad\ La\ edad\ del\ paciente.\r\n\ @param\ nombrecompleto\ El\ nombre\ completo\ del\ paciente.\r\n\ @param\ dni\ El\ n\u00FAmero\ de\ DNI\ del\ paciente.\r\n\ @param\ exp\ El\ expediente\ m\u00E9dico\ del\ paciente.\r\n
+comment2.params=p\ fechaCita\ horaCita
+comment2.target=void\ PedirCita(Medicos_Especialistas,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Solicita\ una\ cita\ con\ un\ m\u00E9dico\ especialista\ en\ una\ fecha\ y\ hora\ espec\u00EDficas.\r\n\ \r\n\ @param\ p\ El\ m\u00E9dico\ especialista\ con\ quien\ se\ solicita\ la\ cita.\r\n\ @param\ fechaCita\ La\ fecha\ de\ la\ cita\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n\ @param\ horaCita\ La\ hora\ de\ la\ cita\ en\ formato\ de\ cadena\ (HH\:mm).\r\n
+comment3.params=est
+comment3.target=void\ setEstado(java.lang.String)
+comment3.text=\r\n\ Establece\ el\ estado\ del\ paciente.\r\n\ \r\n\ @param\ est\ El\ estado\ del\ paciente.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getEstado()
+comment4.text=\r\n\ Obtiene\ el\ expediente\ m\u00E9dico\ del\ paciente.\r\n\ \r\n\ @return\ El\ expediente\ m\u00E9dico\ del\ paciente.\r\n
+comment5.params=
+comment5.target=ExpedienteMedico\ obtenerExpediente()
+comment5.text=\r\n\ Obtiene\ el\ expediente\ m\u00E9dico\ del\ paciente.\r\n\ \r\n\ @return\ El\ expediente\ m\u00E9dico\ del\ paciente.\r\n
+comment6.params=
+comment6.target=Cita\ getCita()
+comment6.text=\r\n\ Obtiene\ la\ cita\ del\ paciente.\r\n\ \r\n\ @return\ La\ cita\ del\ paciente.\r\n
+numComments=7

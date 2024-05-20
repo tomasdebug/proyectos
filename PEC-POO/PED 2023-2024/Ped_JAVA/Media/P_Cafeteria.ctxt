@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=P_Cafeteria
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ P_Cafeteria\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=p
+comment1.target=P_Cafeteria(Personal_Soporte_Hospital)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ P_Cafeteria\r\n\ @param\ p\:personal\ que\ quiero\ que\ se\ haga\ de\ la\ cafeteria\r\n
+comment2.params=edad\ nomComp\ DNI\ fecha_nac_en_String\ turno
+comment2.target=P_Cafeteria(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ P_Cafeteria.Desde\ cero\r\n\ \r\n\ @param\ edad\ La\ edad\ del\ personal\ de\ cafeter\u00EDa.\r\n\ @param\ nomComp\ El\ nombre\ completo\ del\ personal\ de\ cafeter\u00EDa.\r\n\ @param\ DNI\ El\ n\u00FAmero\ de\ DNI\ del\ personal\ de\ cafeter\u00EDa.\r\n\ @param\ fecha_nac_en_String\ La\ fecha\ de\ nacimiento\ del\ personal\ de\ cafeter\u00EDa\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ personal\ de\ cafeter\u00EDa.\r\n
+numComments=3

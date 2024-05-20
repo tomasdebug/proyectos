@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Fecha
+comment1.params=fechaString
+comment1.target=Fecha(java.lang.String)
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ Fecha.\r\n\ \r\n\ @param\ fechaString\ Cadena\ de\ texto\ que\ representa\ la\ fecha\ en\ formato\ "dd/MM/yyyy".\r\n
+comment2.params=
+comment2.target=java.time.LocalDate\ getFecha()
+comment2.text=\r\n\ getter\ de\ la\ clase\ fecha\r\n\ \r\n\ @param\ fechaString\ Cadena\ de\ texto\ que\ representa\ la\ fecha\ en\ formato\ "dd/MM/yyyy".\r\n
+comment3.params=
+comment3.target=java.lang.String\ getFecha_String()
+numComments=4

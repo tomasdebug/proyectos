@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Medicos_Especialistas
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Medicos_Especialista\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=p\ esp
+comment1.target=Medicos_Especialistas(Personal_Sanitario,\ java.lang.String)
+comment1.text=\r\n\ Contructor\ para\ crear\ un\ medico\ especialista\ con\ una\ especialidad\ a\ partir\ de\ personal\ sanitario\ generico\r\n\ @param\ esp\:\ especialidad\ del\ medico\ especialista\r\n\ @param\ p\:\ personal\ sanitario\ elegido\r\n
+comment2.params=edad\ nomComp\ DNI\ fecha_nac_en_String\ esp\ turno
+comment2.target=Medicos_Especialistas(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.text=\r\n\ Constructor\ de\ la\ clase\ Medicos_Especialistas.\r\n\ \r\n\ @param\ edad\ La\ edad\ del\ m\u00E9dico\ especialista.\r\n\ @param\ nomComp\ El\ nombre\ completo\ del\ m\u00E9dico\ especialista.\r\n\ @param\ DNI\ El\ n\u00FAmero\ de\ DNI\ del\ m\u00E9dico\ especialista.\r\n\ @param\ fecha_nac_en_String\ La\ fecha\ de\ nacimiento\ del\ m\u00E9dico\ especialista\ en\ formato\ de\ cadena\ (dd/MM/yyyy).\r\n\ @param\ esp\ La\ especialidad\ del\ m\u00E9dico\ especialista.\r\n\ @param\ turno\ El\ turno\ de\ trabajo\ del\ m\u00E9dico\ especialista.\r\n
+comment3.params=c
+comment3.target=void\ addCita(Cita)
+comment3.text=\r\nGetter\ de\ la\ especialidad\r\n
+comment4.params=
+comment4.target=java.lang.String\ getEsp()
+comment4.text=\r\nGetter\ de\ la\ especialidad\r\n
+comment5.params=
+comment5.target=java.util.ArrayList\ getListaCitas()
+comment5.text=\r\nGetter\ de\ para\ coger\ la\ lista\ de\ citas\r\n
+comment6.params=num
+comment6.target=Cita\ getCita(int)
+comment6.text=\r\nGetter\ de\ citas\r\n
+numComments=7

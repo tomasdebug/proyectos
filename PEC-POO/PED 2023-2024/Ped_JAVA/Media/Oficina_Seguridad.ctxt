@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Oficina_Seguridad
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Oficina_Seguridad\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=lis_empleados
+comment1.target=Oficina_Seguridad(java.util.ArrayList)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Oficina_Seguridad\r\n
+comment2.params=zonatrab\ p
+comment2.target=void\ asignarZonadeTrabajo(java.lang.String,\ P_Seguridad)
+comment2.text=\r\n\ Asigna\ una\ zona\ de\ trabajo\ a\ un\ empleado\ de\ seguridad.\r\n\ \r\n\ @param\ zonatrab\ La\ zona\ de\ trabajo\ que\ se\ asignar\u00E1\ al\ empleado.\r\n\ @param\ p\ El\ empleado\ de\ seguridad\ al\ que\ se\ le\ asignar\u00E1\ la\ zona\ de\ trabajo.\r\n
+comment3.params=zonatrab\ index
+comment3.target=void\ asignarZonadeTrabajo(java.lang.String,\ int)
+comment3.text=\r\n\ Asigna\ una\ zona\ de\ trabajo\ a\ un\ empleado\ de\ seguridad\ mediante\ su\ \u00EDndice\ en\ la\ lista\ de\ empleados.\r\n\ \r\n\ @param\ zonatrab\ La\ zona\ de\ trabajo\ que\ se\ asignar\u00E1\ al\ empleado.\r\n\ @param\ index\ El\ \u00EDndice\ del\ empleado\ de\ seguridad\ al\ que\ se\ le\ asignar\u00E1\ la\ zona\ de\ trabajo.\r\n
+comment4.params=incidencia\ index
+comment4.target=void\ NotificarIncidencia(java.lang.String,\ int)
+comment4.text=\r\n\ Notifica\ una\ incidencia\ al\ empleado\ de\ seguridad\ seleccionado.\r\n\ \r\n\ @param\ incidencia\ La\ descripci\u00F3n\ de\ la\ incidencia\ que\ se\ notificar\u00E1.\r\n\ @param\ index\ El\ \u00EDndice\ del\ empleado\ de\ seguridad\ al\ que\ se\ le\ notificar\u00E1\ la\ incidencia.\r\n
+numComments=5

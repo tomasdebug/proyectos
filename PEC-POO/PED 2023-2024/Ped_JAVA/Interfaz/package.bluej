@@ -1,0 +1,27 @@
+#BlueJ package file
+objectbench.height=134
+objectbench.width=749
+package.divider.horizontal=0.6002645502645503
+package.divider.vertical=0.8918367346938775
+package.editor.height=1158
+package.editor.width=1140
+package.editor.x=1003
+package.editor.y=355
+package.frame.height=1406
+package.frame.width=1294
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+readme.height=60
+readme.name=@README
+readme.width=48
+readme.x=10
+readme.y=10
+target1.height=70
+target1.name=Menu
+target1.showInterface=false
+target1.type=ClassTarget
+target1.width=120
+target1.x=290
+target1.y=30
