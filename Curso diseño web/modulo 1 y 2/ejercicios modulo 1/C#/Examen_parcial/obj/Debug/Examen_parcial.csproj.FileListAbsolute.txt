@@ -1,8 +1,0 @@
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\bin\Debug\Examen_parcial.exe.config
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\bin\Debug\Examen_parcial.exe
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\bin\Debug\Examen_parcial.pdb
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\obj\Debug\Examen_parcial.csproj.AssemblyReference.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\obj\Debug\Examen_parcial.csproj.SuggestedBindingRedirects.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\obj\Debug\Examen_parcial.csproj.CoreCompileInputs.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\obj\Debug\Examen_parcial.exe
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_parcial\obj\Debug\Examen_parcial.pdb

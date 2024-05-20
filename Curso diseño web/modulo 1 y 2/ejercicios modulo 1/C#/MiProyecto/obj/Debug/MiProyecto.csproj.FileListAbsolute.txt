@@ -1,8 +1,0 @@
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\bin\Debug\MiProyecto.exe.config
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\bin\Debug\MiProyecto.exe
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\bin\Debug\MiProyecto.pdb
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\obj\Debug\MiProyecto.csproj.AssemblyReference.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\obj\Debug\MiProyecto.csproj.SuggestedBindingRedirects.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\obj\Debug\MiProyecto.csproj.CoreCompileInputs.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\obj\Debug\MiProyecto.exe
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\MiProyecto\obj\Debug\MiProyecto.pdb

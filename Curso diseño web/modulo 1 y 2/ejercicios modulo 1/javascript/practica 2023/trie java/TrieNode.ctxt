@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=TrieNode
-comment1.params=
-comment1.target=java.util.Map\ getChildren()
-comment2.params=
-comment2.target=boolean\ isEndOfWord()
-comment3.params=endOfWord
-comment3.target=void\ setEndOfWord(boolean)
-numComments=4

@@ -1,8 +1,0 @@
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\bin\Debug\Examen final.exe.config
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\bin\Debug\Examen final.exe
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\bin\Debug\Examen final.pdb
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\obj\Debug\Examen final.csproj.AssemblyReference.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\obj\Debug\Examen final.csproj.SuggestedBindingRedirects.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\obj\Debug\Examen final.csproj.CoreCompileInputs.cache
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\obj\Debug\Examen final.exe
-C:\Users\Curso Mañana\Desktop\curso diseño web\modulo 1\ejercicios modulo 1\C#\Examen_final\Examen final\obj\Debug\Examen final.pdb
