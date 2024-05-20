@@ -1,1 +1,0 @@
-A TFTP Read Request. 
