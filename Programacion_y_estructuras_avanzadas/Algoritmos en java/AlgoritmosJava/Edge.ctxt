@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Edge
+comment0.text=\r\n\ \ \ Clase\ Edge\:\r\nEsta\ clase\ define\ una\ arista\ en\ el\ grafo.\r\n\ Tiene\ campos\ para\ el\ origen\ (src),\ destino\ (dest)\ y\ peso\ (weight).\ \r\n\ Implementa\ la\ interfaz\ Comparable\ para\ poder\ ordenar\ las\ aristas\ por\ peso.\r\n
+comment1.params=compareEdge
+comment1.target=int\ compareTo(Edge)
+numComments=2

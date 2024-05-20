@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Cambiojava
+comment0.text=\r\n\ Programa\ para\ dar\ cambio\ en\ Java\r\n\ \r\n\ @Tom\u00E1s\ Solano\ Campos\r\n\ @V1.1\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=_t\ _h\ F_entrada\ F_salida
+comment2.target=void\ java_cambio_dinamica(boolean,\ boolean,\ java.lang.String,\ java.lang.String)
+comment3.params=
+comment3.target=void\ help()
+comment4.params=_t
+comment4.target=int[][]\ darCambioSinFicherodeentrada(boolean)
+comment5.params=_t
+comment5.target=int[][]\ darCambioConFicheroDeEntrada(boolean)
+comment6.params=cambio\ monedas\ t\ seleccion
+comment6.target=void\ seleccionar_monedas(int,\ int[],\ int[][],\ int[])
+numComments=7
