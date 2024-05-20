@@ -1,0 +1,4 @@
+SMTP simple example.
+Podemos ver como en el frame 25 al no recibir confirmación por parte del destino de que ha recibido nuestro paquete, la ventana de transmisión está llena y no va a enviar más paquetes.
+Cancela los paquetes envíados desde el paquete 22 que retransmite (paquete 27)
+Hasta que en frame 31 no recibe la confirmación del destino, no sigue retransmitiendo los que no fueron confirmado y sigue enviando el resto.
